@@ -1,0 +1,41 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero {
+  background: #000;
+  color: white;
+  padding: 100px 20px;
+}
+
+.footer {
+  background-color: #f1f1f1;
+}
+
+
+#cxone-chat-placeholder {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #0d6efd;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+    font-weight: bold;
+    z-index: 9999;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.shadow-sm {
+    background-color: #4b5d27 !important;
+    color: #fff !important;
+}
+
+a.navbar-brand.fw-bold img {
+    height: 80px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.shadow-sm li a {
+    color: #fff !important;
+}
