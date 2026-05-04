@@ -56,6 +56,8 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.shadow-sm li a {
     font-family: Arial, sans-serif;
     background-image: url(ada_btn.png);
     background-repeat: no-repeat;
+    width: 50px;
+    height: 45px;
   }
 
   /* Popup Overlay */
