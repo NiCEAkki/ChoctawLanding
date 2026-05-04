@@ -120,6 +120,40 @@ Curabitur ultrices ut elit eu venenatis. Etiam molestie mi vitae felis porttitor
   <p>© 2026 Choctaw Landing Demo | CXone Digital Demo Environment</p>
 </footer>
 
+
+<!--POPUP-->
+<!-- Button -->
+<div id="adaButton">Accessibility</div>
+
+<!-- Popup -->
+<div id="adaPopup">
+  <div id="adaContent">
+    <div id="closeBtn">✕</div>
+    <img id="adaImage" src="ada_widget.png" alt="ADA Widget Screenshot">
+  </div>
+</div>
+
+<script>
+  const button = document.getElementById("adaButton");
+  const popup = document.getElementById("adaPopup");
+  const closeBtn = document.getElementById("closeBtn");
+
+  button.onclick = () => {
+    popup.style.display = "block";
+  };
+
+  closeBtn.onclick = () => {
+    popup.style.display = "none";
+  };
+
+  // Optional: click outside to close
+  popup.onclick = (e) => {
+    if (e.target === popup) {
+      popup.style.display = "none";
+    }
+  };
+</script>
+<!--POPUP-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
