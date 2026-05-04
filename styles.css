@@ -44,8 +44,8 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.shadow-sm li a {
   /* Floating Button (Left Side) */
   #adaButton {
     position: fixed;
-    left: 0;
-    top: 90%;
+    left: 12px;
+    top: 95%;
     transform: translateY(-50%);
     /*background-color: #2e7d32;*/
     color: white;
